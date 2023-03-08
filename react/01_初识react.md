@@ -48,4 +48,16 @@ for (let i = 0; i++; i < arr.length) {}
 
 - jsx 语法
   vue: template 语法
-  react： jsx 语法 允许我们在 js 里面编写 html
+  react： jsx 语法 允许我们在 js 里面编写 html 安装 react -S
+  支持浏览器解析 jsx 语法 需要安装 babel @babel/preset-react -D
+
+# react 与 vue 的区别
+
+- react 的灵活度要比 vue 要高，而 vue 的上手程度要比 react 低
+- react 单向响应数据流 vue 双向响应数据流
+- react 应用 jsx 语法 vue 是用的 tempalte 语法
+
+# 技术选型
+
+- vue 可以做中小型项目， react 可以大型项目
+- 开发成本问题
