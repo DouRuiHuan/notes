@@ -2,6 +2,7 @@
 
 - react 是核心语法
 - react-dom 解析 jsx 语法
+- 在 jsx 语法中 class 必须写成 className 因为 class 是关键字
 
 # ReactDOM
 
@@ -53,4 +54,14 @@ var dom = <a href={href} className={class}>百度</a>;
 
 - v-if
 
+```javascript
+var flag = false;
+var dom ={flag?<a>百度</a>:''} ;
+```
+
 - v-show
+
+```javascript
+var flag = false;
+var dom = <a style="display:{flag?'block':'none'}"></a>;
+```
