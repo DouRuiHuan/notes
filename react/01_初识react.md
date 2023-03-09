@@ -56,6 +56,7 @@ for (let i = 0; i++; i < arr.length) {}
 - react 的灵活度要比 vue 要高，而 vue 的上手程度要比 react 低
 - react 单向响应数据流 vue 双向响应数据流
 - react 应用 jsx 语法 vue 是用的 tempalte 语法
+-
 
 # 技术选型
 
