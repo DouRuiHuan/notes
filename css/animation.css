@@ -1,0 +1,103 @@
+/*
+ * @Author: douruihuan douruihuan.vendor@sensetime.com
+ * @Date: 2023-05-17 13:58:54
+ * @LastEditors: douruihuan douruihuan.vendor@sensetime.com
+ * @LastEditTime: 2023-05-22 18:11:00
+ * @FilePath: /sense-earth-v3/Users/douruihuan.vendor/Desktop/myPro/notes/css/旋转.css
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+
+ /* 旋转 */
+
+ .map-image-modal {
+  background: linear-gradient(270deg, rgba(89, 69, 222, 0.8), rgba(89, 69, 222, 0.2), rgba(255, 255, 255, 0));
+  background-size: 30%, 0;
+  background-position: -43%, 100%;
+  background-repeat: no-repeat;
+  animation: scan-animation 4s infinite linear;
+}
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+/* 淡入淡出 */
+  @keyframes opacityImag {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes map-img1 {
+    0% {
+        clip-path: inset(0% 100% 0% 0%);
+        opacity: 1;
+    }
+    100% {
+        clip-path: inset(0% 0% 0% 0%);
+        opacity: 1;
+    }
+}
+
+@keyframes map-img2 {
+    0% {
+        clip-path: circle(0% at 100% 0%);
+        opacity: 1;
+    }
+    100% {
+        clip-path: circle(100%);
+        opacity: 1;
+    }
+}
+
+@keyframes map-img3 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scan-animation {
+  0% {
+      background-size: 30%, 0;
+      background-position: -43%, 100%;
+  }
+  100% {
+      background-size: 30%, 0;
+      background-position: 100%, 100%;
+  }
+}
+
+@keyframes inset-animation {
+  0% {
+      clip-path: inset(0% 0% 0% 0%);
+  }
+  100% {
+      clip-path: inset(0% 0% 0% 100%);
+      opacity: 1;
+  }
+}
+
+/* stroke-dasharray: 135px 138px;
+stroke-dashoffset: 3px; */
+@keyframes move {
+  0% {
+      stroke-dashoffset: 135px;
+  }
+  100% {
+      stroke-dashoffset: 0;
+  }
+}

@@ -1,3 +1,11 @@
+<!--
+ * @Author: douruihuan douruihuan.vendor@sensetime.com
+ * @Date: 2023-03-07 18:37:18
+ * @LastEditors: douruihuan douruihuan.vendor@sensetime.com
+ * @LastEditTime: 2023-05-17 10:21:55
+ * @FilePath: /sense-earth-v3/Users/douruihuan.vendor/Desktop/myPro/notes/react/01_初识react.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # 初识 react
 
 - react 要比 vue 早 2013 5 月份左右
@@ -11,8 +19,11 @@
     - 大部分只要是 es5 的一些方法大部分都是声明式
 
 ```javascript
+// 命令式
 var arr = [10, 20, 30];
 for (let i = 0; i++; i < arr.length) {}
+// 声明式
+arr.map(item=> item+=10)
 ```
 
 - 组件：灵活复用
