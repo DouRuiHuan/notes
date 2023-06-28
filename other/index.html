@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div class="triangle"></div>
+
+    <script>
+      var triangle = document.querySelector(".triangle");
+      // 补全代码
+      const fn = (n) => {
+        var str = "";
+        for (i = 0; i < n; i++) {
+          for (j = 0; j <= i; j++) {
+            console.log(str);
+            str += "*";
+          }
+          str += "<br />";
+        }
+        triangle.innerHTML = str;
+      };
+      fn(3);
+    </script>
+  </body>
+</html>
